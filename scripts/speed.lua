@@ -41,7 +41,7 @@ local mp = require("mp")
 --local utils = require("mp.utils")
 
 local script_name = mp.get_script_name()
-msg.info(script_name .. " loaded")
+msg.info(script_name .. " script loaded")
 
 local speed = os.getenv("MPV_SPEED")
 
