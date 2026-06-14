@@ -71,16 +71,20 @@ See the `scripts/` directory for the Lua code to control MPV.
 
 Under the `scripts/` directory:
 
+- `speed.lua` - sets playback speed if environment variable `MPV_SPEED` is set
+- `maximize-window.lua` - automatically maximizes the window without entering fullscreen mode
+  (which is annoyingly slow on Macs due to fancy effects).
+  - adds key binding `Shift`+`M` to toggle maximize / unmaximize
+- `delete-on-eof.lua` - delete a video after completed playback if environment variable `MPV_DELETE_ON_EOF` is set to any value
+  - for those videos you downloaded to only watch once
+  - this automatic cleanup helps to save space and reduces you needing to manually delete the video
+  - written to automatically clean out YouTube videos downloaded using my
+    [DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools) repo's `youtube_download_video.sh` script
 - `resume-conditions.lua` - only resume videos that:
   - are at least 10 minutes long
   - have been playing for at least 5 minutes
   - have a certain file extension
   - are under a specific directory tree
-- `speed.lua` - sets playback speed if environment variable `MPV_SPEED` is set
-- `delete-on-eof.lua` - delete a video after completed playback if environment variable `MPV_DELETE_ON_EOF` is set to any value
-  - for those videos you downloaded to only watch once
-  - this automatic cleanup helps to save space and reduces you needing to manually delete the video
-- `maximize-window.lua` - automatically maximizes the window without entering fullscreen mode which is annoyingly slow on Macs due to fancy effects. Also adds key binding `Shift`+`M` to toggle this maximize
 
 The environment variables above are useful when used with direnv for specific video directories
 (eg. I always watch all YouTube videos at double speed and delete them after one complete play).
