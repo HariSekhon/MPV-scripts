@@ -19,7 +19,7 @@
 --                         M a x i m i z e   W i n d o w
 -- ========================================================================== --
 
--- Automatically maximizes the mpv window without entering fullscreen which annoying;y slow on Macs due to fancy effects
+-- Automatically maximizes the mpv window without entering fullscreen which annoyingly slow on Macs due to fancy effects
 -- (equivalent to double-clicking the title bar on most window managers)
 --
 -- Also adds key binding Shift-M to toggle this maximize
