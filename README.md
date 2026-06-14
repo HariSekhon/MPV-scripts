@@ -80,6 +80,7 @@ Under the `scripts/` directory:
 - `delete_on_eof.lua` - delete a video after completed playback if environment variable `MPV_DELETE_ON_EOF` is set to any value
   - for those videos you downloaded to only watch once
   - this automatic cleanup helps to save space and reduces you needing to manually delete the video
+- `maximize-window.lua` - automatically maximizes the window without entering fullscreen mode which is annoyingly slow on Macs due to fancy effects. Also adds key binding `Shift`+`M` to toggle this maximize
 
 The environment variables above are useful when used with direnv for specific video directories
 (eg. I always watch all YouTube videos at double speed and delete them after one complete play).
