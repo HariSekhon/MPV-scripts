@@ -86,7 +86,8 @@ Under the `scripts/` directory:
   - have a certain file extension
   - are under a specific directory tree
 
-The environment variables above are useful when used with direnv for specific video directories
+The environment variables above such as `MPV_SPEED` and `MPV_DELETE_ON_EOF`
+are useful when used with direnv for specific video directories
 (eg. I always watch all YouTube videos at double speed and delete them after one complete play).
 
 Migrated from [:octocat: DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools) repo.
