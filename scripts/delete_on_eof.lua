@@ -37,7 +37,7 @@ local mp = require("mp")
 local utils = require("mp.utils")
 
 local script_name = mp.get_script_name()
-msg.info(script_name .. " loaded")
+msg.info(script_name .. " script loaded")
 
 -- have to store the path at file-loaded time because it is cleared by the time we hit end-file
 local path = nil
