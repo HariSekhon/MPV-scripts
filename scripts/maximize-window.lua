@@ -19,10 +19,10 @@
 --                         M a x i m i z e   W i n d o w
 -- ========================================================================== --
 
--- Toggle mpv window between normal size and maximized-to-workarea
+-- Automatically maximizes the mpv window without entering fullscreen which annoying;y slow on Macs due to fancy effects
 -- (equivalent to double-clicking the title bar on most window managers)
 --
--- Also adds key binding Shift-M to maximize
+-- Also adds key binding Shift-M to toggle this maximize
 
 local mp = require 'mp'
 local msg = require("mp.msg")
