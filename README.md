@@ -66,19 +66,25 @@ See the `scripts/` directory for the Lua code to control MPV.
 
 ## Setup
 
+Create the github and local config dirs if they don't already exist:
+
 ```shell
 mkdir -p -v ~/github ~/.config
 ```
+
+Clone this repo:
 
 ```shell
 git clone https://github.com/HariSekhon/MPV-Scripts ~/github/mpvscripts
 ```
 
+Symlink to the location MPV expects to find its config and scripts:
+
 ```shell
 ln -svf ~/github/mpvscripts ~/.config/mpv
 ```
 
-(if `~/.config/mpv` already exists you will need to move it out the way first)
+(if `~/.config/mpv` already exists you will need to move it out the way first otherwise it will symlink into a subdirectory and won't pick up the scripts)
 
 ## MPV Config
 
