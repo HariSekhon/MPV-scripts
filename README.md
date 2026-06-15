@@ -63,6 +63,22 @@ See the `scripts/` directory for the Lua code to control MPV.
 
 [:octocat: mpv-player/mpv](https://github.com/mpv-player/mpv)
 
+## Setup
+
+```shell
+mkdir -p -v ~/github ~/.config
+```
+
+```shell
+git clone https://github.com/HariSekhon/MPV-Scripts ~/github/mpvscripts
+```
+
+```shell
+ln -svf ~/github/mpvscripts ~/.config/mpv
+```
+
+(if `~/.config/mpv` already exists you will need to move it out the way first)
+
 ## MPV Config
 
 - `mpv.conf` - MPV settings such as saving position on quit
@@ -95,9 +111,9 @@ Migrated from [:octocat: DevOps-Bash-tools](https://github.com/HariSekhon/DevOps
 
 Related Docs:
 
-[:octocat: HariSekhon/Knowledge-Base - Lua page](https://github.com/HariSekhon/Knowledge-Base/blob/main/lua.md)
+[:octocat: Knowledge-Base - Lua page](https://github.com/HariSekhon/Knowledge-Base/blob/main/lua.md)
 
-[:octocat: HariSekhon/Knowledge-Base - MPV page](https://github.com/HariSekhon/Knowledge-Base/blob/main/mpv.md)
+[:octocat: Knowledge-Base - MPV page](https://github.com/HariSekhon/Knowledge-Base/blob/main/mpv.md)
 
 ## More Core Repos
 
