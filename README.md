@@ -46,6 +46,7 @@
 
 - [Summary](#summary)
 - [MPV](#mpv)
+- [Setup](#setup)
 - [MPV Config](#mpv-config)
 - [MPV Scripts](#mpv-scripts)
 
